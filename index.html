@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="RASPÁO: raspados, cholados y sabores tropicales inspirados en Colombia."
+    />
+
+    <title>RASPÁO | Tropical Desserts & Drinks</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="announcement">✳ SABOR TROPICAL, BUENAS VIBRAS ✳</div>
+
+    <header class="site-header">
+      <a href="#inicio" class="brand">
+        <span class="brand-icon">✿</span>
+        <span class="brand-name"
+          >RASPÁO.<small>TROPICAL DESSERTS & DRINKS</small></span
+        >
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        ☰
+      </button>
+
+      <nav class="navigation" id="navigation" aria-label="Navegación principal">
+        <a href="#sabores">Sabores</a>
+        <a href="#esencia">Nuestra esencia</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#formulario-contacto" class="nav-button">Hablemos ↗</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-container" id="inicio">
+        <div class="hero-content">
+          <span class="eyebrow">✳ UN PEDACITO DEL TRÓPICO</span>
+          <h1>
+            El sabor de<br />lo <span class="pink">tropical.</span><br /><span
+              class="outline"
+              >Bien frío.</span
+            >
+          </h1>
+          <p>
+            Raspados, cholados y pequeños momentos de felicidad inspirados en
+            los sabores de Colombia.
+          </p>
+          <a href="#sabores" class="primary-button"
+            >Descubre los sabores <span>↗</span></a
+          >
+
+          <div class="hero-note">
+            <span class="note-icon">✿</span>
+            <div>
+              <strong>Hecho para disfrutar</strong>
+              <small>Color, fruta y alegría en cada vaso.</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="hero-decoration">
+            <span class="sun"></span>
+            <span class="decoration-flower flower-a">✿</span>
+            <span class="decoration-flower flower-b">✳</span>
+            <div class="hero-message">SABOR QUE<br />TE MUEVE ♥</div>
+            <p class="hero-caption">FRUTA + HIELO = FELICIDAD</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="products-section" id="sabores">
+        <div class="section-container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">01 / NUESTROS FAVORITOS</span>
+              <h2>Frescos por<br /><span class="green">naturaleza.</span></h2>
+            </div>
+            <p>
+              Colores, fruta y sabores tropicales para convertir cualquier
+              momento en algo especial.
+            </p>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card mango-card">
+              <div class="product-image-container">
+                <img
+                  src="img/raspado mango.png"
+                  alt="Raspado tropical de mango"
+                  class="product-image"
+                  loading="lazy"
+                />
+                <span class="product-tag">FAVORITO</span>
+              </div>
+              <div class="product-info">
+                <span class="product-number">01 / FRUTAL</span>
+                <h3>Mango Tropical</h3>
+                <p>
+                  El sabor dulce del mango para refrescar tus días con un toque
+                  tropical.
+                </p>
+                <a href="#formulario-contacto" class="product-link"
+                  >Quiero saber más <span>↗</span></a
+                >
+              </div>
+            </article>
+
+            <article class="product-card passion-card">
+              <div class="product-image-container">
+                <img
+                  src="img/maracuya.png"
+                  alt="Raspado tropical de maracuyá"
+                  class="product-image"
+                  loading="lazy"
+                />
+                <span class="product-tag">TOQUE TROPICAL</span>
+              </div>
+              <div class="product-info">
+                <span class="product-number">02 / EXÓTICO</span>
+                <h3>Maracuyá</h3>
+                <p>
+                  Un sabor tropical con personalidad, frescura y un punto ácido.
+                </p>
+                <a href="#formulario-contacto" class="product-link"
+                  >Quiero saber más <span>↗</span></a
+                >
+              </div>
+            </article>
+
+            <article class="product-card cholado-card">
+              <div class="product-image-container">
+                <img
+                  src="img/raspado refrescante.png"
+                  alt="Raspado refrescante de inspiración colombiana"
+                  class="product-image"
+                  loading="lazy"
+                />
+                <span class="product-tag">MUY REFRESCANTE</span>
+              </div>
+              <div class="product-info">
+                <span class="product-number">03 / REFRESCANTE</span>
+                <h3>Raspão Especial</h3>
+                <p>
+                  Una combinación refrescante para disfrutar de una pausa
+                  diferente.
+                </p>
+                <a href="#formulario-contacto" class="product-link"
+                  >Quiero saber más <span>↗</span></a
+                >
+              </div>
+            </article>
+          </div>
+
+          <p class="product-disclaimer">
+            Las imágenes representan los productos de forma visual. Consulta la
+            disponibilidad de sabores.
+          </p>
+        </div>
+      </section>
+
+      <section class="story-section section-container" id="esencia">
+        <div class="story-content">
+          <span class="eyebrow">02 / NUESTRA ESENCIA</span>
+          <h2>
+            Colombia en cada<br /><span class="pink">pequeño momento.</span>
+          </h2>
+          <p class="story-lead">
+            Queremos llevar la alegría de los sabores tropicales a cada vaso.
+          </p>
+          <p>
+            RASPÁO nace de la inspiración de los sabores de Colombia: frutas,
+            colores, frescura y esa forma tan especial de disfrutar de las
+            pequeñas cosas.
+          </p>
+          <p>
+            Nuestro objetivo es crear una experiencia cercana, alegre y
+            refrescante, donde cada visita sea una pequeña escapada al trópico.
+          </p>
+
+          <div class="story-values">
+            <div class="value-item">
+              <span>✿</span>
+              <div>
+                <strong>Inspiración colombiana</strong
+                ><small>Sabores con raíces tropicales.</small>
+              </div>
+            </div>
+            <div class="value-item">
+              <span>✳</span>
+              <div>
+                <strong>Color y frescura</strong
+                ><small>Una experiencia llena de personalidad.</small>
+              </div>
+            </div>
+            <div class="value-item">
+              <span>♥</span>
+              <div>
+                <strong>Momentos para compartir</strong
+                ><small>Pequeños placeres para disfrutar.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contacto">
+        <div class="contact-content section-container">
+          <div>
+            <span class="eyebrow">03 / NOS VEMOS PRONTO</span>
+            <h2>
+              Tu próxima pausa<br /><span class="green"
+                >tiene sabor tropical.</span
+              >
+            </h2>
+            <p>
+              Estamos preparando algo refrescante. Muy pronto, más novedades de
+              RASPÁO.
+            </p>
+            <a href="#formulario-contacto" class="primary-button"
+              >Contactar <span>↗</span></a
+            >
+          </div>
+
+          <div class="contact-sticker">
+            <span>SABOR QUE</span>
+            <strong>TE<br />MUEVE</strong>
+            <span class="heart">♥</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section" id="formulario-contacto">
+        <div class="form-container">
+          <div class="form-heading">
+            <span class="eyebrow">04 / HABLEMOS ✳</span>
+            <h2>¿Tienes algo<br /><span class="green">que contarnos?</span></h2>
+            <p>Rellena el formulario y cuéntanos qué necesitas.</p>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Tu nombre"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="tu@email.com"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="motivo">¿En qué podemos ayudarte?</label>
+              <select id="motivo" name="motivo" required>
+                <option value="" selected disabled>
+                  Selecciona una opción
+                </option>
+                <option value="productos">Información sobre productos</option>
+                <option value="eventos">Eventos y celebraciones</option>
+                <option value="colaboraciones">
+                  Colaboraciones comerciales
+                </option>
+                <option value="otros">Otros</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Tu mensaje</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                placeholder="Escribe aquí tu mensaje..."
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-checkbox">
+              <input
+                type="checkbox"
+                id="privacidad"
+                name="privacidad"
+                required
+              />
+              <label for="privacidad"
+                >He leído y acepto la política de privacidad.</label
+              >
+            </div>
+
+            <button type="submit" class="primary-button">
+              Enviar mensaje <span>↗</span>
+            </button>
+            <p class="contact-form-note">
+              Formulario de demostración: todavía no envía mensajes por correo
+              electrónico.
+            </p>
+            <p
+              id="form-message"
+              class="form-message"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="#inicio" class="footer-logo">RASPÁO<span>.</span></a>
+      <p>Tropical desserts & drinks. Un pedacito del trópico.</p>
+      <a href="#inicio" class="footer-top">VOLVER ARRIBA ↑</a>
+      <small
+        >© <span id="year"></span> RASPÁO. Todos los derechos reservados.</small
+      >
+    </footer>
+  </body>
+</html>
